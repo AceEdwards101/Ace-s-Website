@@ -17,7 +17,6 @@ const padding = {
 
 function App() {
   const [cart,setCart]= useState([])
-  const baseurl = 'http://localhost:3001'
   useEffect(() => {
     const storedCart = localStorage.getItem('cart');
     if (storedCart) {
